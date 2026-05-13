@@ -269,7 +269,7 @@ If you use this code or data in your own work, please cite:
 
 ## Installation
 **Typical install time:** approximately 5–10 minutes on a standard 
-laptop computer.
+Desktop computer.
 
 
 **Expected run time (full pipeline):**
