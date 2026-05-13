@@ -267,6 +267,22 @@ If you use this code or data in your own work, please cite:
 
 ---
 
+## Installation
+**Typical install time:** approximately 5–10 minutes on a standard 
+laptop computer.
+
+
+**Expected run time (full pipeline):**
+
+| Notebook | Estimated time |
+|----------|---------------|
+| preprocessing.ipynb | ~2–3 min |
+| Optuna labelling | ~10 min (500 trials) |
+| K-means labelling | ~1 min |
+| Each classification notebook | ~3–5 min |
+| Each regression notebook | ~3–5 min |
+| **Total (all 4 conditions)** | **~30–40 min** |
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
