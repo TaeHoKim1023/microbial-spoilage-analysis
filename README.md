@@ -3,9 +3,9 @@
 This repository contains the full analysis pipeline for the paper:
 
 > **"Microbial community shifts enable early detection of refrigerated chicken breast spoilage via AI based analysis"**  
-> *[Eun Seo Lee, Tae Ho Kim, Hansol Doh, Young Suk Kim, Woo Ju Kim, and Sun Ae Kim], *Nature Communications*, 
-> * DOI: TBD (under review at Nature Communications)
-> @article{lee2026chicken, }
+> Eun Seo Lee, Tae Ho Kim, Hansol Doh, Young Suk Kim, Woo Ju Kim, and Sun Ae Kim  
+> *Nature Communications* (under review, 2026)  
+> DOI: TBD upon acceptance
 
 We characterise microbial succession in refrigerated chicken breast (0–18 days storage, n = 270 samples) using 16S rRNA genus-level relative abundance data. CLR-transformed compositional data are passed through automated spoilage-stage labelling (Optuna or K-means), two feature-selection strategies (Fold-change Top-10 or PLS-DA VIP ≥ 1.0), machine-learning classification of spoilage stage, TPC regression for early spoilage detection, and SHAP explainability analysis. The best-performing pipeline (K-means labelling + VIP ≥ 1.0 features + SVR) achieves MAE = 0.325 and R² = 0.850 on held-out test data.
 
@@ -254,13 +254,14 @@ All figures are generated inline in the notebooks. Save them via the notebook in
 If you use this code or data in your own work, please cite:
 
 ```bibtex
-@article{[citekey],
+@article{lee2026chicken,
   title   = {Microbial community shifts enable early detection of refrigerated
              chicken breast spoilage via AI based analysis},
-  author  = {[Authors]},
+  author  = {Lee, Eun Seo and Kim, Tae Ho and Doh, Hansol and 
+             Kim, Young Suk and Kim, Woo Ju and Kim, Sun Ae},
   journal = {Nature Communications},
-  year    = {[Year]},
-  doi     = {[DOI]}
+  year    = {2026},
+  doi     = {TBD}
 }
 ```
 
