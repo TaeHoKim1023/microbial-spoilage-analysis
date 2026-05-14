@@ -16,6 +16,7 @@ We characterise microbial succession in refrigerated chicken breast (0–18 days
 ```
 folder/
 ├── data/
+│      ├── sanitation.xslx
 │   input: microbial abundance + TPC measurements
 │   ├── K_means_pkl/             # Preprocessed/intermediate data for K-means labelling branch
 │   │   ├── all_preprocessed_data.pkl
